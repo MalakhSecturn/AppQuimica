@@ -1,19 +1,16 @@
-<!DOCTYPE html>
-<html lang="es-CO">
-<head>
-	<meta charset="UTF-8">
-		<title>App para sacar formulas de quimica</title>
-		<!--Import Google Icon Font-->
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-		<link rel="stylesheet" href="css/style.css">
-
-		<!--Let browser know website is optimized for mobile-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	</head>
-</head>
-<body>
-	
+<?php 
+	$page_name = "Home";
+	require 'Templates/header.php';
+?>
+	<div class="container">
+		<div class="row">
+			<form action="verification.php">
+				<div class="col s12 input-field">
+					<input type="text" class="validate" name="insert_compound" id="insert_compound" placeholder="Insert the chemical compound">
+				</div>
+				<input type="submit" class="waves-effect waves-light col s12 btn" value="FIND COMPOUND AND YOU CHARACTERISTICS">
+			</form>
+		</div>
+	</div>
 </body>
 </html>
