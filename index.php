@@ -8,7 +8,10 @@
 		</header>
 		<div class="row">
 			<div class="col s12">
-				<h5 class="center-align">Deseas agregar mas elementos <button class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></button></h5>
+				<h5 class="center-align">
+					Deseas agregar mas elementos 
+					<button class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons" onclick="AgregarCampo()">add</i></button>
+				</h5>
 				
 			</div>
 		</div>
@@ -58,12 +61,6 @@
 			</div>
 		</form>
 	</div>
-	<script> 
-	function  cp1() {
-
-	  document.getElementById("lol").innerHTML = "aqui va un input o dos o tres pero no se como hacerlo pl ayuda plox";
-	}
-
-	</script>
+	<<script src="/js/main.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
