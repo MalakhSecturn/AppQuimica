@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es-CO">
 <head>
@@ -34,6 +33,8 @@
 
    </script>
 =======
+=======
+>>>>>>> 750e333f8912acc5d1952f1ff59a43f9db7f983e
 <?php 
 	$page_name = "Home";
 	require 'Templates/header.php';
@@ -48,6 +49,9 @@
 			</form>
 		</div>
 	</div>
+<<<<<<< HEAD
+>>>>>>> 750e333f8912acc5d1952f1ff59a43f9db7f983e
+=======
 >>>>>>> 750e333f8912acc5d1952f1ff59a43f9db7f983e
 </body>
 </html>
