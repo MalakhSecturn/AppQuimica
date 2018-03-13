@@ -2,23 +2,11 @@
 	$page_name = "Home";
 	require 'Templates/header.php';
 ?>
- <h1 align=CENTER >quimica grado 10º y 11º</h1> <br> 
- <hr>
-  <i> <strong>ESCRIBE CUANTOS ELEMENTOS TIENE EL COMPUESTO A VALANCEAR</strong> </i> 
-  <input type="button" value="1" name="b1" onclick="cp1()"> 
-  <input type="button" value="2" name="b2"> 
-  <input type="button" value="3" name="b3"> 
-  <input type="button" value="4" name="b4"> 
-  <input type="button" value="5" name="b5"> <br>
-  
-  <p id="lol"></p>
-  <script> 
-    function  cp1() {
-
-      document.getElementById("lol").innerHTML = "aqui va un input o dos o tres pero no se como hacerlo pl ayuda plox" 
-    }
-
-   </script>
+	<div class="container">
+		<header>
+			<h1 class="center-align">Quimica Grado 10° y 11°</h1>
+		</header>
+	</div>
 	<div class="container">
 		<div class="row">
 			<form action="verification.php">
@@ -29,5 +17,12 @@
 			</form>
 		</div>
 	</div>
+	<script> 
+	function  cp1() {
+
+	  document.getElementById("lol").innerHTML = "aqui va un input o dos o tres pero no se como hacerlo pl ayuda plox";
+	}
+
+	</script>
 </body>
 </html>
