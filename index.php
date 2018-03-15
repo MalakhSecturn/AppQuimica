@@ -53,6 +53,12 @@
 				</div>
 				<div class="col s1"></div>
 			</div>
+			<script>
+				function AgregarCampo() {
+					// AGREGAMOS EL CODIGO HTML
+					document.writeIn("hola");
+				}
+			</script>
 			<!-- FIN DEL ELEMENTO -->
 			<div class="row">
 				<div class="col s1"></div>
@@ -61,6 +67,5 @@
 			</div>
 		</form>
 	</div>
-	<<script src="/js/main.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
